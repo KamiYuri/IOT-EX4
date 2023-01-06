@@ -31,6 +31,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cookie-parser", "npm:1.4.6"],\
             ["debug", "virtual:3c4f7f349789d7597b53f6806dcbf71445596dd97a6a139314a632324e544d12b73623cfb0621bb9d37d8830b5ffbaf5935d9d709ca211a5a162bb877a1524e9#npm:2.6.9"],\
             ["express", "npm:4.16.4"],\
+            ["express-list-routes", "npm:1.1.3"],\
+            ["express-response-helper", "npm:1.3.1"],\
             ["mongoose", "npm:6.8.1"],\
             ["morgan", "npm:1.9.1"],\
             ["nodemon", "npm:2.0.20"]\
@@ -1605,6 +1607,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cookie-parser", "npm:1.4.6"],\
             ["debug", "virtual:3c4f7f349789d7597b53f6806dcbf71445596dd97a6a139314a632324e544d12b73623cfb0621bb9d37d8830b5ffbaf5935d9d709ca211a5a162bb877a1524e9#npm:2.6.9"],\
             ["express", "npm:4.16.4"],\
+            ["express-list-routes", "npm:1.1.3"],\
+            ["express-response-helper", "npm:1.3.1"],\
             ["mongoose", "npm:6.8.1"],\
             ["morgan", "npm:1.9.1"],\
             ["nodemon", "npm:2.0.20"]\
@@ -1647,6 +1651,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["type-is", "npm:1.6.18"],\
             ["utils-merge", "npm:1.0.1"],\
             ["vary", "npm:1.1.2"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["express-list-routes", [\
+        ["npm:1.1.3", {\
+          "packageLocation": "./.yarn/cache/express-list-routes-npm-1.1.3-caebe28ae4-fc99e5fc47.zip/node_modules/express-list-routes/",\
+          "packageDependencies": [\
+            ["express-list-routes", "npm:1.1.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["express-response-helper", [\
+        ["npm:1.3.1", {\
+          "packageLocation": "./.yarn/cache/express-response-helper-npm-1.3.1-32b41ac85f-ce54843bbf.zip/node_modules/express-response-helper/",\
+          "packageDependencies": [\
+            ["express-response-helper", "npm:1.3.1"]\
           ],\
           "linkType": "HARD"\
         }]\

@@ -1,20 +1,13 @@
-var mongoose = require('mongoose');
-
+const mongoose = require('mongoose');
+const { database: { username, password, database } } = require('../config')
 mongoose.set('strictQuery', false);
-
-const configs = {
-  username: 'root',
-  password: 'root',
-  database: 'sample_training'
-};
 
 class Database {
   constructor() {
     this._connect()
   }
-
 _connect() {
-     mongoose.connect(`mongodb+srv://${configs.username}:${configs.password}@cluster0.wdr62iu.mongodb.net/${configs.database}`)
+     mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.wdr62iu.mongodb.net/${database}`)
        .then(() => {
          console.log('Database connection successful')
        })
@@ -23,5 +16,4 @@ _connect() {
        })
   }
 }
-
 module.exports = new Database()
