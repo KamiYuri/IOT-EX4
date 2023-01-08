@@ -29,6 +29,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["cookie-parser", "npm:1.4.6"],\
+            ["debug", "virtual:993368e4d5b99ecbd76d0bd2c43aca0cecadb2a241ef3dc8dc18085b2d79167d5195671fbb701c9e6312177b2cac6e3d058c4aa296d48c4e02c788163cdcab10#npm:4.3.4"],\
             ["express", "npm:4.16.4"],\
             ["express-list-routes", "npm:1.1.3"],\
             ["express-response-helper", "npm:1.3.1"],\
@@ -1736,6 +1737,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["ex4", "workspace:."],\
             ["cookie-parser", "npm:1.4.6"],\
+            ["debug", "virtual:993368e4d5b99ecbd76d0bd2c43aca0cecadb2a241ef3dc8dc18085b2d79167d5195671fbb701c9e6312177b2cac6e3d058c4aa296d48c4e02c788163cdcab10#npm:4.3.4"],\
             ["express", "npm:4.16.4"],\
             ["express-list-routes", "npm:1.1.3"],\
             ["express-response-helper", "npm:1.3.1"],\

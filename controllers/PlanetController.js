@@ -31,7 +31,7 @@ module.exports = {
      *           example: 621ff30d2a3e781873fcb661
      *     responses:
      *       200:
-     *         description: A list of planets.
+     *         description: Planet by ID.
      *         content:
      *           application/json:
      *             schema:
@@ -172,7 +172,7 @@ module.exports = {
      *              $ref: '#/components/schemas/Planet'
      *     responses:
      *       200:
-     *         description: A list of planets.
+     *         description: Old planet.
      *         content:
      *           application/json:
      *             schema:
